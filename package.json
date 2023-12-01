@@ -1,0 +1,50 @@
+{
+  "name": "Timer",
+  "version": "1.0.0",
+  "description": "Online platform providing an intuitive interface for efficiently managing productivity across various tasks.",
+  "keywords": [
+    "timer",
+    "productivity",
+    "intuitive",
+    "tasks"
+  ],
+  "homepage": "https://github.com/silviya-stoyanova/Timer",
+  "license": "MIT License",
+  "author": "Silviya Stoyanova",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silviya-stoyanova/Timer"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --env=development"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "babel": "^6.23.0",
+    "eslint": "^8.54.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "react-redux": "^8.1.3",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.2.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 ChromeAndroid versions",
+    "last 2 Edge versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 iOS versions"
+  ]
+}
